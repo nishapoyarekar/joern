@@ -42,7 +42,8 @@ class JoernConsole extends Console[JoernProject](JoernAmmoniteExecutor, new Joer
         |██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
         |╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
         | ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
-        |Version: $version
+        |Version:$version
+        |Nisha
         |$helpMsg
       """.stripMargin)
   }
