@@ -14,7 +14,7 @@ object AmmoniteBridge extends App with BridgeBase {
        |""".stripMargin
   }
 
-  override def promptStr(): String = "joern> "
+  override def promptStr(): String = "whiteboxtest> " /*Naming a project is the hardest thing -- Nisha*/
 
   override def shutdownHooks: List[String] = List("""interp.beforeExitHooks.append{_ =>
       |println("Would you like to save changes? (y/N)")
